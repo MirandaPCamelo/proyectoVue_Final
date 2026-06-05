@@ -1,0 +1,15 @@
+﻿{
+  "usuarios": [
+    { "id": 1, "nombre": "Ana Pérez", "email": "ana@ejemplo.com" },
+    { "id": 2, "nombre": "Luis Gómez", "email": "luis@ejemplo.com" }
+  ],
+  "proyectos": [
+    { "id": 1, "titulo": "Proyecto A", "propietarioId": 1 },
+    { "id": 2, "titulo": "Proyecto B", "propietarioId": 2 }
+  ],
+  "tareas": [
+    { "id": 1, "proyectoId": 1, "titulo": "Definir requisitos", "asignadoA": 1, "estado": "pendiente" },
+    { "id": 2, "proyectoId": 1, "titulo": "Diseño UI", "asignadoA": 2, "estado": "en-progreso" },
+    { "id": 3, "proyectoId": 2, "titulo": "API Backend", "asignadoA": 2, "estado": "finalizado" }
+  ]
+}

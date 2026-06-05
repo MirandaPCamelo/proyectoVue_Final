@@ -1,0 +1,22 @@
+﻿{
+  "name": "flujo-vue-ts",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "mock": "json-server --watch mock/db.json --port 3001"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "vue": "^3.4.0",
+    "vue-router": "^4.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.6",
+    "vite": "^5.0.0",
+    "json-server": "^0.17.3",
+    "@vitejs/plugin-vue": "^4.0.0"
+  }
+}
