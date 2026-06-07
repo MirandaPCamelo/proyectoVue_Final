@@ -1,15 +1,88 @@
-﻿{
-  "usuarios": [
-    { "id": 1, "nombre": "Ana Pérez", "email": "ana@ejemplo.com" },
-    { "id": 2, "nombre": "Luis Gómez", "email": "luis@ejemplo.com" }
+{
+  "estados": [
+    {
+      "id": 1,
+      "nombre": "Pendiente",
+      "color": "#FFC107"
+    },
+    {
+      "id": 2,
+      "nombre": "En Progreso",
+      "color": "#2196F3"
+    },
+    {
+      "id": 3,
+      "nombre": "Completada",
+      "color": "#4CAF50"
+    },
+    {
+      "id": 4,
+      "nombre": "Cancelada",
+      "color": "#F44336"
+    }
   ],
-  "proyectos": [
-    { "id": 1, "titulo": "Proyecto A", "propietarioId": 1 },
-    { "id": 2, "titulo": "Proyecto B", "propietarioId": 2 }
+  "usuarios": [
+    {
+      "id": 1,
+      "nombre": "Ana Pérez",
+      "email": "ana@ejemplo.com"
+    },
+    {
+      "id": 2,
+      "nombre": "Luis Gómez",
+      "email": "luis@ejemplo.com"
+    },
+    {
+      "id": 3,
+      "nombre": "Carlos López",
+      "email": "carlos@ejemplo.com"
+    }
   ],
   "tareas": [
-    { "id": 1, "proyectoId": 1, "titulo": "Definir requisitos", "asignadoA": 1, "estado": "pendiente" },
-    { "id": 2, "proyectoId": 1, "titulo": "Diseño UI", "asignadoA": 2, "estado": "en-progreso" },
-    { "id": 3, "proyectoId": 2, "titulo": "API Backend", "asignadoA": 2, "estado": "finalizado" }
+    {
+      "id": 1,
+      "titulo": "Definir requisitos",
+      "descripcion": "Documentar los requisitos del proyecto",
+      "estadoId": 1,
+      "usuarioId": 1,
+      "fechaCreacion": "2024-01-10",
+      "fechaVencimiento": "2024-01-20"
+    },
+    {
+      "id": 2,
+      "titulo": "Diseño UI",
+      "descripcion": "Crear mockups de la interfaz",
+      "estadoId": 4,
+      "usuarioId": 2,
+      "fechaCreacion": "2024-01-12",
+      "fechaVencimiento": "2024-01-25"
+    },
+    {
+      "id": 3,
+      "titulo": "API Backend",
+      "descripcion": "Implementar endpoints REST",
+      "estadoId": 3,
+      "usuarioId": 3,
+      "fechaCreacion": "2024-01-08",
+      "fechaVencimiento": "2024-01-30"
+    },
+    {
+      "id": 4,
+      "titulo": "Testing",
+      "descripcion": "Realizar pruebas unitarias",
+      "estadoId": 1,
+      "usuarioId": 1,
+      "fechaCreacion": "2024-01-15",
+      "fechaVencimiento": "2024-02-05"
+    },
+    {
+      "titulo": "ss",
+      "descripcion": "ss",
+      "usuarioId": 2,
+      "estadoId": 3,
+      "fechaVencimiento": "2026-06-05",
+      "fechaCreacion": "2026-06-05",
+      "id": 5
+    }
   ]
 }
